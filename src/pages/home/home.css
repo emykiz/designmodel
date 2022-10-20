@@ -1,0 +1,8 @@
+.homepage{
+    display:flex;
+    height:calc(100vh - 50px);
+    overflow-y: scroll;
+}
+.homepage::-webkit-scrollbar {
+    display: block;
+}

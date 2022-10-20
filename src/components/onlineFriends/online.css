@@ -1,0 +1,19 @@
+
+.online-friends{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -10px;
+}
+.rightsidebar-imgContainer{
+    display: flex;
+    position: relative;
+    gap:0.5em;
+}
+.active-dot{
+    width:8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: rgb(14, 168, 14);
+    position: absolute;
+    right:273px;
+}

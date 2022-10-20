@@ -1,0 +1,16 @@
+.createPost{
+    width:520px;
+    margin-top: 50px;
+}
+.postcreating{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.createPost-button{
+    background-color: rgba(155, 102, 102, 0.699);
+    border: none;
+    color:white;
+    height: 30px;
+    border-radius: 7px;
+}

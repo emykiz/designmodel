@@ -1,0 +1,44 @@
+.leftsidebar{
+    width:280px;
+    /* background-color: brown; */
+    margin-left: 40px;
+    height: calc(100vh - 50px);
+
+    overflow-y:scroll;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding-top: 20px;
+}
+.leftsidebar::-webkit-scrollbar{
+    width:7px;
+}
+.leftsidebar::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+    border-radius: 25px;
+}
+.leftsidebar::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 25px;
+}
+.leftsidebar div{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap:1em;
+}
+.leftsidebar button{
+    border:none;
+    width:100px;
+    height:40px;
+    margin-bottom: -16px;
+}
+.leftsidebar-imgContainer{
+    width:150px;
+    
+}
+.leftsidebar-img{
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+}
